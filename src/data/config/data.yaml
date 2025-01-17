@@ -1,0 +1,16 @@
+# Configuración del dataset
+path: ./datasets/vehicles
+train: images/train
+val: images/val
+
+# Tus clases
+names:
+  0: car
+  1: truck
+  2: bus
+  3: motorcycle
+
+# Parámetros de entrenamiento
+epochs: 100
+batch_size: 16
+img_size: 640 
